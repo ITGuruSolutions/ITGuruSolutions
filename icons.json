@@ -1,6 +1,6 @@
 {
   "system": "IT GURU ENGINEERING SIGNAL SYSTEM",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "palette": {
     "background": "#0B0F19",
     "surface": "#111827",
@@ -13,30 +13,44 @@
     "signal_purple": "#7F4BFA",
     "signal_pink": "#FF5A87"
   },
-  "assets": [
-    "assets/hero-banner.svg",
-    "assets/hero-banner-static.svg",
-    "assets/stats-metrics.svg",
-    "assets/engineering-bento.svg",
-    "assets/engineering-timeline.svg",
-    "assets/engineering-pipeline.svg",
-    "assets/search-ai-system.svg",
-    "assets/ai-agent-workflow.svg",
-    "assets/technology-network.svg",
-    "assets/technology-strip.svg",
-    "assets/mobilegadgetsworld-case.svg",
-    "assets/interactive-lab.svg",
-    "assets/terminal-status.svg",
-    "assets/section-divider.svg",
-    "assets/cta-primary.svg"
-  ],
-  "capabilities": [
-    { "id": "web-engineering", "name": "Web Platform Engineering", "stack": ["Next.js", "React 19", "TypeScript", "Tailwind CSS v4"] },
-    { "id": "ai-automation", "name": "AI & Workflow Automation", "stack": ["LLM Pipelines", "n8n", "Vector Embeddings", "LangChain"] },
-    { "id": "search-aeo-geo", "name": "Search & AEO/GEO Architecture", "stack": ["Schema.org", "Knowledge Graph", "Entity Search", "Semantic Web"] },
-    { "id": "cloud-devops", "name": "Cloud & DevOps Infrastructure", "stack": ["AWS", "Google Cloud", "Docker", "Vercel", "Cloudflare"] },
-    { "id": "database-systems", "name": "Database Architecture", "stack": ["PostgreSQL", "Prisma", "Redis", "pgvector"] },
-    { "id": "mobile-engineering", "name": "Mobile Systems", "stack": ["React Native", "Flutter", "Expo"] },
-    { "id": "creative-lab", "name": "Interactive UI & 3D WebGL", "stack": ["GSAP 3", "Three.js", "Canvas GL", "Framer Motion"] }
-  ]
+  "categories": {
+    "web_cms": [
+      "Next.js", "React", "TypeScript", "JavaScript", "HTML5", "CSS3",
+      "Tailwind CSS", "Redux", "Material UI", "Shadcn UI", "Bootstrap",
+      "Framer Motion", "GSAP", "PHP", "Laravel", "WordPress", "Shopify"
+    ],
+    "mobile_apps": [
+      "Flutter", "React Native", "Swift", "Kotlin", "Java"
+    ],
+    "backend_db": [
+      "Node.js", "Express.js", "NestJS", "Python", "C++", "Prisma",
+      "REST API", "GraphQL", "MERN Stack", "MongoDB", "PostgreSQL", "MySQL"
+    ],
+    "cloud_google": [
+      "Google Analytics 4", "Google Search Console", "Google Ads", "Google Cloud Platform",
+      "Google Maps & GBP", "Google Tag Manager", "AWS", "Microsoft Azure", "Docker",
+      "Kubernetes", "Vercel", "Netlify", "Cloudflare", "Firebase", "Supabase", "Redis",
+      "Linux", "Nginx", "PM2"
+    ],
+    "dev_tools": [
+      "Git", "GitHub", "GitHub Actions", "VS Code"
+    ],
+    "ai_automation": [
+      "OpenAI", "ChatGPT", "Claude", "Google Gemini", "LangChain",
+      "Hugging Face", "n8n", "Zapier", "Make"
+    ],
+    "seo_analytics": [
+      "SEMrush", "Ahrefs", "Screaming Frog", "Google Looker Studio",
+      "Microsoft Clarity", "Hotjar", "Meta Ads", "LinkedIn Ads"
+    ],
+    "payment_gateways": [
+      "Razorpay", "PayPal", "Stripe", "PhonePe", "Paytm",
+      "Google Pay", "UPI Payments", "Visa", "Mastercard", "RuPay", "American Express"
+    ],
+    "uiux_creative": [
+      "Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign",
+      "Adobe Premiere Pro", "Adobe After Effects", "CorelDRAW", "Canva",
+      "Brand Identity & Logos", "Ad Creatives & Banners", "Vector Illustration", "Print & Digital Collateral"
+    ]
+  }
 }

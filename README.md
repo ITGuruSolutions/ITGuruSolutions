@@ -22,7 +22,7 @@
 [`LIFECYCLE`](#03--lifecycle-methodology) &nbsp;·&nbsp;
 [`SEARCH & AI`](#04--search-architecture--aeo--geo) &nbsp;·&nbsp;
 [`AI WORKFLOWS`](#05--ai-automation--agent-workflows) &nbsp;·&nbsp;
-[`STACK`](#06--technology-network) &nbsp;·&nbsp;
+[`STACK & TOOLS`](#06--verified-technology-matrix) &nbsp;·&nbsp;
 [`BUILDS`](#07--flagship-engineering-builds) &nbsp;·&nbsp;
 [`CASE STUDY`](#08--case-study-mobilegadgetsworld) &nbsp;·&nbsp;
 [`LAB`](#09--interactive--motion-lab) &nbsp;·&nbsp;
@@ -150,32 +150,181 @@ ORCHESTRATION STACK:
 
 <br/>
 
-## 06 / TECHNOLOGY NETWORK
+## 06 / VERIFIED TECHNOLOGY MATRIX
 
 ### Distributed Stack Ecosystem
 
 <div align="center">
   <img src="./assets/technology-network.svg" alt="Technology Network Topology" width="100%" />
-</div>
-
-<br/>
-
-### Continuous Technology Stream
-
-<div align="center">
+  <br/><br/>
   <img src="./assets/technology-strip.svg" alt="Continuous Technology Stream" width="100%" />
 </div>
 
 <br/>
 
-| Layer | Primary Technologies | Architecture Role |
-| :--- | :--- | :--- |
-| **Frontend & UI** | Next.js 15/16, React 19, TypeScript, Tailwind CSS, Radix UI | Server Components, Edge Rendering, Optimistic UI |
-| **Backend & Services** | Node.js, NestJS, Python, FastAPI, Go, GraphQL | Microservices, Event-Driven APIs, Message Brokers |
-| **Data & Storage** | PostgreSQL, Prisma, MongoDB, Redis, pgvector | ACID Transactions, In-Memory Caching, Vector Embeddings |
-| **Cloud & DevOps** | AWS, Google Cloud, Docker, Vercel, Cloudflare Workers | Serverless Functions, Edge Caching, Containerization |
-| **Search & AI** | Schema.org Graphs, n8n, OpenAI/Anthropic APIs, LangChain | Semantic Search, Entity Linking, Autonomous Workflows |
-| **Mobile** | React Native, Flutter, Expo, Swift, Kotlin | Cross-Platform Native Apps with Shared Business Logic |
+<!-- CATEGORY FILTER JUMP LINKS -->
+<div align="center">
+  <a href="#1-web--cms"><b>[⚡ Web &amp; CMS]</b></a> &nbsp;·&nbsp;
+  <a href="#2-mobile-apps"><b>[📱 Mobile Apps]</b></a> &nbsp;·&nbsp;
+  <a href="#3-backend--databases"><b>[⚙️ Backend &amp; DB]</b></a> &nbsp;·&nbsp;
+  <a href="#4-cloud--google-infrastructure"><b>[☁️ Cloud &amp; Google]</b></a> &nbsp;·&nbsp;
+  <a href="#5-developer-tooling"><b>[🛠️ Dev Tools]</b></a> &nbsp;·&nbsp;
+  <a href="#6-ai--automation-systems"><b>[🤖 AI &amp; Automation]</b></a> &nbsp;·&nbsp;
+  <a href="#7-seo--analytics-marketing"><b>[📊 SEO &amp; Analytics]</b></a> &nbsp;·&nbsp;
+  <a href="#8-payment-gateways--fintech"><b>[💳 Payment Gateways]</b></a> &nbsp;·&nbsp;
+  <a href="#9-uiux--creative-engineering"><b>[🎨 UI/UX &amp; Creative]</b></a>
+</div>
+
+<br/>
+
+### 1. Web & CMS
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=4EC7DE&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Full-stack React framework with SSG/ISR for blazing-fast websites | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=4EC7DE&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Modern UI component architecture for dynamic web applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Type-safe robust JavaScript codebase for enterprise projects | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | ES6+ high-performance client logic and interactive web features | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Semantic web page structure and accessibility markup | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Modern CSS layout, responsive design, and smooth animations | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=06B6D4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Utility-first design system and rapid UI styling framework | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Redux](https://img.shields.io/badge/Redux-111827?style=flat-square&logo=redux&logoColor=764ABC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Predictable global application state management for React apps | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Material UI](https://img.shields.io/badge/Material_UI-111827?style=flat-square&logo=mui&logoColor=007FFF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Google's Material Design component library for React applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-111827?style=flat-square&logo=radixui&logoColor=F8FAFC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Accessible component library built with Radix and Tailwind CSS | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Bootstrap](https://img.shields.io/badge/Bootstrap-111827?style=flat-square&logo=bootstrap&logoColor=7952B3&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Responsive CSS component framework for rapid web UI development | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Framer Motion](https://img.shields.io/badge/Framer_Motion-111827?style=flat-square&logo=framer&logoColor=0055FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Production-ready animation library for React web applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![GSAP](https://img.shields.io/badge/GSAP-111827?style=flat-square&logo=greensock&logoColor=88CE02&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Professional JavaScript animation platform for complex web animations | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![PHP](https://img.shields.io/badge/PHP_8+-111827?style=flat-square&logo=php&logoColor=777BB4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Modern server-side PHP 8+ web applications and custom backend | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Laravel](https://img.shields.io/badge/Laravel-111827?style=flat-square&logo=laravel&logoColor=FF2D20&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Enterprise MVC PHP framework for scalable web portals and APIs | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![WordPress](https://img.shields.io/badge/WordPress-111827?style=flat-square&logo=wordpress&logoColor=21759B&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Custom WordPress themes, plugins and headless CMS solutions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Shopify](https://img.shields.io/badge/Shopify-111827?style=flat-square&logo=shopify&logoColor=7AB55C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | High-converting e-commerce store design and Liquid code development | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+
+<br/>
+
+### 2. Mobile Apps
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter&logoColor=02569B&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | Cross-platform iOS and Android mobile application framework by Google | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+| [![React Native](https://img.shields.io/badge/React_Native-111827?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | Native-performance cross-platform iOS and Android apps using React | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+| [![Swift](https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift&logoColor=FA7343&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | Native Apple iOS, iPadOS and macOS app development language | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+| [![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin&logoColor=7F52FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | Native Android app development with modern Kotlin language | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+| [![Java](https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=ED8B00&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | Android app development and enterprise microservices platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+
+<br/>
+
+### 3. Backend & Databases
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Scalable asynchronous event-driven backend runtime | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Express.js](https://img.shields.io/badge/Express.js-111827?style=flat-square&logo=express&logoColor=F8FAFC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Minimal and flexible Node.js web application framework for APIs | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![NestJS](https://img.shields.io/badge/NestJS-111827?style=flat-square&logo=nestjs&logoColor=E0234E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Progressive TypeScript Node.js framework for enterprise backend services | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | AI, machine learning, data processing and automation backend | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![C++](https://img.shields.io/badge/C++-111827?style=flat-square&logo=cplusplus&logoColor=00599C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/app-development/) | High-speed native system algorithms and performance applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/app-development/) |
+| [![Prisma](https://img.shields.io/badge/Prisma_ORM-111827?style=flat-square&logo=prisma&logoColor=2D3748&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Next-generation ORM for Node.js with type-safe database queries | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square&logo=fastapi&logoColor=009688&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | RESTful API design and integration for web and mobile applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![GraphQL](https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql&logoColor=E10098&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Flexible query language for powerful and efficient API development | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![MERN Stack](https://img.shields.io/badge/MERN_Stack-111827?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | MongoDB, Express, React, Node.js full-stack web development | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=47A248&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | High-throughput NoSQL document database for modern applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Enterprise relational SQL database with advanced features | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![MySQL](https://img.shields.io/badge/MySQL-111827?style=flat-square&logo=mysql&logoColor=4479A1&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Reliable structured transactional database for web applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+
+<br/>
+
+### 4. Cloud & Google Infrastructure
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![GA4](https://img.shields.io/badge/Google_Analytics_4-111827?style=flat-square&logo=googleanalytics&logoColor=E37400&labelColor=0B0F19)](https://www.itgurusolutions.in/services/digital-marketing/) | GA4 user traffic, event tracking and conversion attribution platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/digital-marketing/) |
+| [![Search Console](https://img.shields.io/badge/Google_Search_Console-111827?style=flat-square&logo=google&logoColor=4285F4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Indexing, keyword rankings and sitemap audit for SEO optimization | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Google Ads](https://img.shields.io/badge/Google_Ads-111827?style=flat-square&logo=googleads&logoColor=FBBC04&labelColor=0B0F19)](https://www.itgurusolutions.in/services/digital-marketing/) | High-intent Search, Display and Shopping PPC ad campaign management | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/digital-marketing/) |
+| [![GCP](https://img.shields.io/badge/Google_Cloud-111827?style=flat-square&logo=googlecloud&logoColor=4285F4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Enterprise GCP cloud hosting and serverless infrastructure services | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Google Maps](https://img.shields.io/badge/Google_Maps_%26_GBP-111827?style=flat-square&logo=googlemaps&logoColor=EA4335&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Local Business Profile and Map Pack ranking for Local SEO | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![GTM](https://img.shields.io/badge/Google_Tag_Manager-111827?style=flat-square&logo=googletagmanager&logoColor=246FDB&labelColor=0B0F19)](https://www.itgurusolutions.in/services/digital-marketing/) | Custom conversion tags and marketing tracking pixel management | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/digital-marketing/) |
+| [![AWS](https://img.shields.io/badge/AWS-111827?style=flat-square&logo=amazonwebservices&logoColor=FF9900&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Amazon Web Services cloud hosting, S3, Lambda, EC2 deployments | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Azure](https://img.shields.io/badge/Microsoft_Azure-111827?style=flat-square&logo=microsoftazure&logoColor=0078D4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Microsoft Azure enterprise cloud hosting and DevOps pipelines | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Containerized isolated application builds for consistent deployment | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Kubernetes](https://img.shields.io/badge/Kubernetes-111827?style=flat-square&logo=kubernetes&logoColor=326CE5&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Container orchestration and automated deployment at enterprise scale | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=F8FAFC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Instant serverless deployment and global CDN for Next.js applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Netlify](https://img.shields.io/badge/Netlify-111827?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Continuous deployment, serverless functions and edge network hosting | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Cloudflare](https://img.shields.io/badge/Cloudflare-111827?style=flat-square&logo=cloudflare&logoColor=F38020&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Global CDN, DDoS protection and DNS management for performance | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Firebase](https://img.shields.io/badge/Firebase-111827?style=flat-square&logo=firebase&logoColor=FFCA28&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Google Firebase real-time database, auth and cloud functions platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Supabase](https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=3ECF8E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Open-source Firebase alternative with PostgreSQL and real-time APIs | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Redis](https://img.shields.io/badge/Redis-111827?style=flat-square&logo=redis&logoColor=DC382D&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | In-memory data caching and session management for high-speed apps | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FCC624&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Linux server administration and production environment management | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![Nginx](https://img.shields.io/badge/Nginx-111827?style=flat-square&logo=nginx&logoColor=009639&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | High-performance reverse proxy, load balancer and web server | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+| [![PM2](https://img.shields.io/badge/PM2-111827?style=flat-square&logo=pm2&logoColor=2B037A&labelColor=0B0F19)](https://www.itgurusolutions.in/services/cloud-computing/) | Advanced Node.js process manager for production server deployments | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/cloud-computing/) |
+
+<br/>
+
+### 5. Developer Tooling
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Distributed version control system for collaborative development | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![GitHub](https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Cloud-based code hosting and collaboration platform for teams | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions&logoColor=2088FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Automated CI/CD pipeline and workflow automation for deployments | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![VS Code](https://img.shields.io/badge/VS_Code-111827?style=flat-square&logo=visualstudiocode&logoColor=007ACC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Microsoft Visual Studio Code — standard development environment | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+
+<br/>
+
+### 6. AI & Automation Systems
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-111827?style=flat-square&logo=openai&logoColor=412991&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | OpenAI API integration for GPT-4 AI-powered web applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![ChatGPT](https://img.shields.io/badge/ChatGPT-111827?style=flat-square&logo=openai&logoColor=74AA9C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | ChatGPT integration for conversational AI features in applications | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![Claude](https://img.shields.io/badge/Anthropic_Claude-111827?style=flat-square&logo=anthropic&logoColor=D97706&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | Anthropic Claude AI model integration for safe and capable AI features | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![Google Gemini](https://img.shields.io/badge/Google_Gemini-111827?style=flat-square&logo=googlegemini&logoColor=8E75FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | Google Gemini multimodal AI model for intelligent app features | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![LangChain](https://img.shields.io/badge/LangChain-111827?style=flat-square&logo=langchain&logoColor=1C3C3C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | LLM orchestration framework for building intelligent AI pipelines | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![Hugging Face](https://img.shields.io/badge/Hugging_Face-111827?style=flat-square&logo=huggingface&logoColor=FFD21E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | Open-source AI model hub for NLP, computer vision and embeddings | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![n8n](https://img.shields.io/badge/n8n-111827?style=flat-square&logo=n8n&logoColor=EA4B71&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | Low-code workflow automation platform for AI and business processes | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![Zapier](https://img.shields.io/badge/Zapier-111827?style=flat-square&logo=zapier&logoColor=FF4A00&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | No-code app integration and workflow automation for businesses | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+| [![Make](https://img.shields.io/badge/Make.com-111827?style=flat-square&logo=make&logoColor=6D28D9&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ai-solutions/) | Visual workflow automation platform for complex business integrations | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ai-solutions/) |
+
+<br/>
+
+### 7. SEO & Analytics Marketing
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![SEMrush](https://img.shields.io/badge/SEMrush-111827?style=flat-square&logo=semrush&logoColor=FF642D&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Enterprise SEO platform for keyword research and competitive analysis | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Ahrefs](https://img.shields.io/badge/Ahrefs-111827?style=flat-square&logo=ahrefs&logoColor=0071E3&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Backlink analysis, keyword tracking and SEO audit platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Screaming Frog](https://img.shields.io/badge/Screaming_Frog-111827?style=flat-square&logo=screamingfrog&logoColor=85C441&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Technical SEO website crawler for identifying on-page issues | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Looker Studio](https://img.shields.io/badge/Looker_Studio-111827?style=flat-square&logo=google&logoColor=4285F4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Google Data Studio for custom SEO and marketing performance dashboards | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Microsoft Clarity](https://img.shields.io/badge/Microsoft_Clarity-111827?style=flat-square&logo=microsoft&logoColor=00A4EF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Free heatmap and session recording tool for UX optimization | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Hotjar](https://img.shields.io/badge/Hotjar-111827?style=flat-square&logo=hotjar&logoColor=FD3A5C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/seo-services/) | Heatmaps, recordings and surveys for conversion rate optimization | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/seo-services/) |
+| [![Meta Ads](https://img.shields.io/badge/Meta_Ads-111827?style=flat-square&logo=meta&logoColor=0081FB&labelColor=0B0F19)](https://www.itgurusolutions.in/services/digital-marketing/) | Facebook and Instagram advertising campaigns for social media marketing | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/digital-marketing/) |
+| [![LinkedIn Ads](https://img.shields.io/badge/LinkedIn_Ads-111827?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0B0F19)](https://www.itgurusolutions.in/services/digital-marketing/) | B2B LinkedIn advertising for professional audience targeting | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/digital-marketing/) |
+
+<br/>
+
+### 8. Payment Gateways & FinTech
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Razorpay](https://img.shields.io/badge/Razorpay-111827?style=flat-square&logo=razorpay&logoColor=0C2340&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Secure Indian online payment gateway for web and mobile apps | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![PayPal](https://img.shields.io/badge/PayPal-111827?style=flat-square&logo=paypal&logoColor=00457C&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Global online payment processing for international e-commerce | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Stripe](https://img.shields.io/badge/Stripe-111827?style=flat-square&logo=stripe&logoColor=008CDD&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Developer-friendly global payment processing and subscription platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![PhonePe](https://img.shields.io/badge/PhonePe-111827?style=flat-square&logo=phonepe&logoColor=5F259F&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | PhonePe digital payment gateway for UPI-based Indian transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Paytm](https://img.shields.io/badge/Paytm-111827?style=flat-square&logo=paytm&logoColor=002970&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Paytm payment gateway for wallet and UPI-based online transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Google Pay](https://img.shields.io/badge/Google_Pay-111827?style=flat-square&logo=googlepay&logoColor=4285F4&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Google Pay UPI and contactless payment integration for apps | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![UPI](https://img.shields.io/badge/UPI_Payments-111827?style=flat-square&logo=unifiedpaymentsinterface&logoColor=097939&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Unified Payments Interface for instant bank-to-bank transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Visa](https://img.shields.io/badge/Visa-111827?style=flat-square&logo=visa&logoColor=1A1F71&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Visa card payment processing for secure global online transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Mastercard](https://img.shields.io/badge/Mastercard-111827?style=flat-square&logo=mastercard&logoColor=EB001B&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | Mastercard payment gateway for secure global card transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![RuPay](https://img.shields.io/badge/RuPay-111827?style=flat-square&logo=rupay&logoColor=007934&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | National payment card network for India domestic transactions | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+| [![Amex](https://img.shields.io/badge/American_Express-111827?style=flat-square&logo=americanexpress&logoColor=006FCF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/web-development/) | American Express premium card payment integration for businesses | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/web-development/) |
+
+<br/>
+
+### 9. UI/UX & Creative Engineering
+| Technology | Architecture Role & Specification | Status | Verified Service |
+| :--- | :--- | :--- | :--- |
+| [![Figma](https://img.shields.io/badge/Figma-111827?style=flat-square&logo=figma&logoColor=F24E1E&labelColor=0B0F19)](https://www.itgurusolutions.in/services/ui-ux-design/) | Collaborative UI/UX wireframing and interactive design systems | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/ui-ux-design/) |
+| [![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-111827?style=flat-square&logo=adobephotoshop&logoColor=31A8FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | High-resolution photo editing and digital raster artwork creation | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Illustrator](https://img.shields.io/badge/Adobe_Illustrator-111827?style=flat-square&logo=adobeillustrator&logoColor=FF9A00&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Scalable vector logos, brand illustrations and icon design | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![InDesign](https://img.shields.io/badge/Adobe_InDesign-111827?style=flat-square&logo=adobeindesign&logoColor=FF3366&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Professional layout design for magazines and corporate publishing | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Premiere Pro](https://img.shields.io/badge/Adobe_Premiere_Pro-111827?style=flat-square&logo=adobepremierepro&logoColor=9999FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Professional video editing and high-converting motion ads production | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![After Effects](https://img.shields.io/badge/Adobe_After_Effects-111827?style=flat-square&logo=adobeaftereffects&logoColor=9999FF&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Complex VFX and interactive UI motion graphics production | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![CorelDRAW](https://img.shields.io/badge/CorelDRAW-111827?style=flat-square&logo=coreldraw&logoColor=00B140&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Vector graphic design and industrial print artwork creation | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Canva](https://img.shields.io/badge/Canva-111827?style=flat-square&logo=canva&logoColor=00C4CC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Rapid social media graphics and marketing template design platform | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Branding](https://img.shields.io/badge/Brand_Identity_%26_Logos-111827?style=flat-square&logo=sketch&logoColor=F8FAFC&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Custom brand identity, logo design and corporate style guide creation | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Ad Design](https://img.shields.io/badge/Ad_Creatives_%26_Banners-111827?style=flat-square&logo=target&logoColor=FF5A87&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | High-converting social media and PPC ad graphics design | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Illustration](https://img.shields.io/badge/Vector_Illustration-111827?style=flat-square&logo=inkscape&logoColor=4EC7DE&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Custom digital artwork, infographics and web iconography design | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
+| [![Collateral](https://img.shields.io/badge/Print_%26_Digital_Collateral-111827?style=flat-square&logo=buffer&logoColor=7F4BFA&labelColor=0B0F19)](https://www.itgurusolutions.in/services/graphic-design/) | Brochures, packaging, business cards, and corporate stationery | `Production Verified` | [Explore →](https://www.itgurusolutions.in/services/graphic-design/) |
 
 <br/>
 
