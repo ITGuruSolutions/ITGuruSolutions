@@ -1,0 +1,112 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="netPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7F4BFA" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF5A87" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .tech-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 12.5px;
+        fill: #F1F5F9;
+        letter-spacing: 0.5px;
+      }
+      .tech-domain {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 9px;
+        font-weight: 600;
+        fill: #64748B;
+        letter-spacing: 1px;
+      }
+      .tech-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 9.5px;
+        fill: #94A3B8;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="160" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Static Network Bus Lines -->
+  <line x1="160" y1="50" x2="1040" y2="50" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="160" y1="110" x2="1040" y2="110" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="220" y1="50" x2="220" y2="110" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="500" y1="50" x2="500" y2="110" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="780" y1="50" x2="780" y2="110" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="1020" y1="50" x2="1020" y2="110" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Moving Pulse on Main Bus -->
+  <rect x="160" y="49" width="180" height="2" rx="1" fill="url(#netPulse)">
+    <animate attributeName="x" values="160; 860; 160" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Row 1: Core Stacks -->
+  <!-- Node 1: Next.js & React -->
+  <g transform="translate(60, 20)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">FRONTEND ARCHITECTURE</text>
+    <text x="14" y="38" class="tech-title">Next.js 15 • React 19</text>
+    <text x="14" y="50" class="tech-desc">TypeScript &amp; Tailwind CSS v4</text>
+  </g>
+
+  <!-- Node 2: Node.js & APIs -->
+  <g transform="translate(340, 20)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">BACKEND &amp; RUNTIME</text>
+    <text x="14" y="38" class="tech-title">Node.js • Python • PHP</text>
+    <text x="14" y="50" class="tech-desc">GraphQL &amp; High-Throughput REST</text>
+  </g>
+
+  <!-- Node 3: Cloud & DB -->
+  <g transform="translate(620, 20)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">DATA &amp; INFRASTRUCTURE</text>
+    <text x="14" y="38" class="tech-title">AWS • Docker • PostgreSQL</text>
+    <text x="14" y="50" class="tech-desc">MongoDB, Redis &amp; Vercel Edge</text>
+  </g>
+
+  <!-- Node 4: Search & AI -->
+  <g transform="translate(900, 20)">
+    <rect width="240" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">SEARCH &amp; AI ENGINE</text>
+    <text x="14" y="38" class="tech-title">Technical SEO • AEO / GEO</text>
+    <text x="14" y="50" class="tech-desc">JSON-LD Schema &amp; Entity Graphs</text>
+  </g>
+
+  <!-- Row 2: Applications & Verticals -->
+  <!-- Node 5: Mobile Apps -->
+  <g transform="translate(60, 88)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">MOBILE SYSTEMS</text>
+    <text x="14" y="38" class="tech-title">Flutter • React Native</text>
+    <text x="14" y="50" class="tech-desc">Native Swift &amp; Android Kotlin</text>
+  </g>
+
+  <!-- Node 6: E-Commerce -->
+  <g transform="translate(340, 88)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">COMMERCE PLATFORMS</text>
+    <text x="14" y="38" class="tech-title">MobileGadgetsWorld</text>
+    <text x="14" y="50" class="tech-desc">Razorpay, Stripe &amp; Custom Cart</text>
+  </g>
+
+  <!-- Node 7: Creative Lab -->
+  <g transform="translate(620, 88)">
+    <rect width="210" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">CREATIVE LAB</text>
+    <text x="14" y="38" class="tech-title">GSAP • WebGL 3D</text>
+    <text x="14" y="50" class="tech-desc">Canvas &amp; Kinetic Micro-Interactions</text>
+  </g>
+
+  <!-- Node 8: Analytics & GA4 -->
+  <g transform="translate(900, 88)">
+    <rect width="240" height="58" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="20" class="tech-domain">ANALYTICS &amp; CONVERSION</text>
+    <text x="14" y="38" class="tech-title">GA4 • Search Console</text>
+    <text x="14" y="50" class="tech-desc">Conversion Funnels &amp; CWV Tracking</text>
+  </g>
+</svg>

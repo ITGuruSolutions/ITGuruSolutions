@@ -1,0 +1,111 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Master Brand Accent Gradient (Static) -->
+    <linearGradient id="staticGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE"/>
+      <stop offset="50%" stop-color="#7F4BFA"/>
+      <stop offset="100%" stop-color="#FF5A87"/>
+    </linearGradient>
+
+    <!-- Dark SaaS Background -->
+    <linearGradient id="staticBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1424"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+
+    <!-- Subtle Architectural Grid -->
+    <pattern id="staticGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.35"/>
+    </pattern>
+
+    <style>
+      .title-wordmark {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        letter-spacing: 5px;
+      }
+      .tagline-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 3.5px;
+        fill: #94A3B8;
+        text-transform: uppercase;
+      }
+      .tech-signal {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #64748B;
+      }
+      .status-pill {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #94A3B8;
+      }
+      .metric-bold {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 14.5px;
+        fill: #F1F5F9;
+      }
+      .metric-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        fill: #64748B;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1200" height="280" rx="12" fill="url(#staticBg)" stroke="#1E293B" stroke-width="1"/>
+  <rect width="1200" height="280" rx="12" fill="url(#staticGrid)"/>
+
+  <!-- Technical Corner Signals -->
+  <text x="45" y="42" class="tech-signal">01 / ENGINEERING</text>
+  <text x="1040" y="42" class="tech-signal">02 / PERFORMANCE</text>
+  <text x="45" y="248" class="tech-signal">03 / SEARCH ARCHITECTURE</text>
+  <text x="1090" y="248" class="tech-signal">04 / AI SYSTEMS</text>
+
+  <!-- Status Indicator Badge -->
+  <g>
+    <rect x="455" y="26" width="290" height="24" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="472" cy="38" r="3.5" fill="#10B981"/>
+    <text x="484" y="42" class="status-pill">DELHI NCR, INDIA • ACTIVE</text>
+  </g>
+
+  <!-- Main Wordmark -->
+  <text x="600" y="112" text-anchor="middle" class="title-wordmark" fill="url(#staticGradient)">IT GURU SOLUTIONS</text>
+
+  <!-- 2px Precision Gradient Underline -->
+  <rect x="460" y="126" width="280" height="2" rx="1" fill="url(#staticGradient)"/>
+
+  <!-- Tagline -->
+  <text x="600" y="154" text-anchor="middle" class="tagline-text">TECHNOLOGY • ENGINEERING • DIGITAL GROWTH</text>
+
+  <!-- Metric Matrix -->
+  <g transform="translate(150, 185)">
+    <rect x="0" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="100" y="23" text-anchor="middle" class="metric-bold">1,500+ Builds</text>
+    <text x="100" y="39" text-anchor="middle" class="metric-sub">Delivered Since 2020</text>
+
+    <rect x="233" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="333" y="23" text-anchor="middle" class="metric-bold">98% Satisfaction</text>
+    <text x="333" y="39" text-anchor="middle" class="metric-sub">127+ Client Reviews</text>
+
+    <rect x="466" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="566" y="23" text-anchor="middle" class="metric-bold">&lt; 1.2s LCP Speed</text>
+    <text x="566" y="39" text-anchor="middle" class="metric-sub">Core Web Vitals</text>
+
+    <rect x="700" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="800" y="23" text-anchor="middle" class="metric-bold">15+ Countries</text>
+    <text x="800" y="39" text-anchor="middle" class="metric-sub">Global Footprint</text>
+  </g>
+</svg>

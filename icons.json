@@ -1,0 +1,47 @@
+{
+  "design_system": "IT Guru Solutions Monochrome Line System",
+  "version": "1.0.0",
+  "tokens": {
+    "stroke": "#94A3B8",
+    "stroke_width": 1.75,
+    "fill": "none",
+    "stroke_linecap": "round",
+    "stroke_linejoin": "round",
+    "surface": "#111827",
+    "hairline": "#1E293B"
+  },
+  "categories": {
+    "web": {
+      "name": "Web & Frontend Engineering",
+      "technologies": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "Redux Toolkit", "GSAP", "Radix UI", "Shadcn UI"]
+    },
+    "backend": {
+      "name": "Backend & API Systems",
+      "technologies": ["Node.js", "Express", "Python", "PHP", "Laravel", "GraphQL", "REST APIs", "Prisma"]
+    },
+    "mobile": {
+      "name": "Mobile & Cross-Platform",
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Android", "iOS"]
+    },
+    "cloud": {
+      "name": "Cloud & Infrastructure",
+      "technologies": ["AWS", "Google Cloud Platform", "Docker", "Vercel Edge", "Nginx", "Firebase", "Supabase"]
+    },
+    "databases": {
+      "name": "Databases & Cache",
+      "technologies": ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
+    },
+    "search": {
+      "name": "Search Architecture & AI Citations",
+      "technologies": ["Technical SEO", "JSON-LD Schema", "Entity Knowledge Graphs", "AEO", "GEO", "Google Search Console", "GA4", "Screaming Frog", "SEMrush", "Ahrefs"]
+    },
+    "ecommerce": {
+      "name": "Commerce Platforms & Payments",
+      "technologies": ["MobileGadgetsWorld", "Razorpay", "Stripe", "PayPal", "UPI Integration", "Shopify", "Custom Cart Engines"]
+    },
+    "creative": {
+      "name": "Creative & Motion Lab",
+      "technologies": ["Figma", "WebGL", "GSAP Timelines", "3D Canvas", "DOM Physics", "Micro-Interactions"]
+    }
+  }
+}
