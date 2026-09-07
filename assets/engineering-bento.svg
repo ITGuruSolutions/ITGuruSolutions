@@ -1,0 +1,106 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bentoAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE"/>
+      <stop offset="50%" stop-color="#7F4BFA"/>
+      <stop offset="100%" stop-color="#FF5A87"/>
+    </linearGradient>
+    <style>
+      .bento-num {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 10px;
+        font-weight: 700;
+        fill: #64748B;
+        letter-spacing: 1px;
+      }
+      .bento-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 13.5px;
+        fill: #F8FAFC;
+        letter-spacing: 0.5px;
+      }
+      .bento-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 10.5px;
+        fill: #94A3B8;
+        line-height: 1.4;
+      }
+      .bento-tag {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 9.5px;
+        font-weight: 600;
+        fill: #CBD5E1;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Tile 1: Web Engineering (Large Left Card) -->
+  <g transform="translate(15, 15)">
+    <rect width="380" height="190" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <!-- Subtle Gradient Highlight on Top Border -->
+    <rect x="1" y="1" width="120" height="2" rx="1" fill="url(#bentoAccent)"/>
+    <text x="18" y="28" class="bento-num">01 / WEB ARCHITECTURE</text>
+    <text x="18" y="52" class="bento-title">Full-Stack Next.js 15 &amp; React 19</text>
+    <text x="18" y="74" class="bento-desc">Custom enterprise web applications engineered for sub-second</text>
+    <text x="18" y="90" class="bento-desc">Core Web Vitals, SSG/ISR rendering, and high lead conversion.</text>
+    
+    <!-- Tech Tags Pill Grid -->
+    <g transform="translate(18, 114)">
+      <rect width="90" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+      <text x="45" y="15" text-anchor="middle" class="bento-tag">Next.js 15</text>
+
+      <rect x="98" width="90" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+      <text x="143" y="15" text-anchor="middle" class="bento-tag">TypeScript</text>
+
+      <rect x="196" width="105" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+      <text x="248" y="15" text-anchor="middle" class="bento-tag">Tailwind v4</text>
+    </g>
+    <g transform="translate(18, 144)">
+      <rect width="115" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+      <text x="57" y="15" text-anchor="middle" class="bento-tag">Redux Toolkit</text>
+
+      <rect x="123" width="120" height="22" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.5"/>
+      <text x="183" y="15" text-anchor="middle" class="bento-tag">Framer Motion</text>
+    </g>
+  </g>
+
+  <!-- Tile 2: AI & LLM Systems (Top Mid) -->
+  <g transform="translate(410, 15)">
+    <rect width="375" height="90" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" class="bento-num">02 / AI &amp; AUTOMATION</text>
+    <text x="16" y="44" class="bento-title">Generative AI Search &amp; Agents</text>
+    <text x="16" y="62" class="bento-desc">AEO/GEO optimization, LLM APIs, and n8n workflow pipelines.</text>
+    <text x="16" y="76" class="bento-tag">ChatGPT Search • Perplexity • LangChain</text>
+  </g>
+
+  <!-- Tile 3: Search Layer (Top Right) -->
+  <g transform="translate(800, 15)">
+    <rect width="385" height="90" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" class="bento-num">03 / SEARCH AUTHORITY</text>
+    <text x="16" y="44" class="bento-title">Technical SEO &amp; Schema Graphs</text>
+    <text x="16" y="62" class="bento-desc">Nested JSON-LD knowledge graphs &amp; crawl efficiency.</text>
+    <text x="16" y="76" class="bento-tag">Schema.org • Screaming Frog • GA4</text>
+  </g>
+
+  <!-- Tile 4: Cloud DevOps (Bottom Mid) -->
+  <g transform="translate(410, 115)">
+    <rect width="375" height="90" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" class="bento-num">04 / INFRASTRUCTURE</text>
+    <text x="16" y="44" class="bento-title">Cloud DevOps &amp; Databases</text>
+    <text x="16" y="62" class="bento-desc">AWS, Google Cloud, Docker microservices &amp; PostgreSQL.</text>
+    <text x="16" y="76" class="bento-tag">Docker • PostgreSQL • Redis • Vercel Edge</text>
+  </g>
+
+  <!-- Tile 5: Mobile Systems (Bottom Right) -->
+  <g transform="translate(800, 115)">
+    <rect width="385" height="90" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" class="bento-num">05 / MOBILE PLATFORMS</text>
+    <text x="16" y="44" class="bento-title">Native &amp; Cross-Platform Apps</text>
+    <text x="16" y="62" class="bento-desc">React Native, Flutter, Swift, and Android Kotlin systems.</text>
+    <text x="16" y="76" class="bento-tag">React Native • Flutter • Swift • Kotlin</text>
+  </g>
+</svg>

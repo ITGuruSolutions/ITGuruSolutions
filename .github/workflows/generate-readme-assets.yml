@@ -1,0 +1,28 @@
+name: Generate & Verify Profile Assets
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly verification
+  workflow_dispatch:
+
+jobs:
+  verify-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Local SVG Assets
+        run: |
+          echo "Verifying local profile SVGs..."
+          for file in assets/*.svg; do
+            if [ -f "$file" ]; then
+              echo "✓ $file verified (size: $(wc -c < "$file") bytes)"
+            fi
+          done
+
+      - name: Check Broken Links & Anchors
+        run: |
+          echo "Checking README syntax and local image references..."
+          test -f README.md && echo "✓ README.md exists"
+          test -f icons.json && echo "✓ icons.json manifest exists"

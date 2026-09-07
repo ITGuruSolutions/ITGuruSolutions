@@ -1,0 +1,51 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .term-cmd {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 11.5px;
+        font-weight: 600;
+        fill: #4EC7DE;
+        letter-spacing: 0.5px;
+      }
+      .term-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 11.5px;
+        font-weight: 500;
+        fill: #CBD5E1;
+      }
+      .term-ok {
+        fill: #10B981;
+        font-weight: 700;
+      }
+      .term-muted {
+        fill: #64748B;
+      }
+      @keyframes termBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .term-cursor {
+        animation: termBlink 1.2s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect width="1200" height="140" rx="8" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+  <rect width="1200" height="28" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Window Dots -->
+  <circle cx="20" cy="14" r="4" fill="#334155"/>
+  <circle cx="34" cy="14" r="4" fill="#334155"/>
+  <circle cx="48" cy="14" r="4" fill="#334155"/>
+  <text x="600" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">itguru-core-systems — zsh — 1200x140</text>
+
+  <!-- Terminal Output Lines -->
+  <g transform="translate(24, 52)">
+    <text x="0" y="0" class="term-cmd">$ itguru.system_status() --verbose</text>
+    <text x="0" y="24" class="term-text">[✓] FULL-STACK WEB ENGINES: <tspan class="term-ok">ONLINE</tspan> (Next.js 15, React 19, TypeScript)</text>
+    <text x="0" y="44" class="term-text">[✓] SEARCH &amp; AI ARCHITECTURE: <tspan class="term-ok">ACTIVE</tspan> (JSON-LD Schema Graphs, AEO, GEO)</text>
+    <text x="0" y="64" class="term-text">[✓] CLOUD &amp; DEVOPS PIPELINES: <tspan class="term-ok">OPERATIONAL</tspan> (AWS, Docker, Vercel Edge, Postgres) <tspan class="term-cursor" fill="#4EC7DE">█</tspan></text>
+  </g>
+</svg>

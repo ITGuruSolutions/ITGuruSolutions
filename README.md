@@ -30,50 +30,14 @@
 
 <br/>
 
-## 🛠️ Core Engineering Disciplines
+### 01 / ENGINEERING SYSTEMS
+## Core Engineering Disciplines
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ Full-Stack Next.js & React Engineering</h3>
-      <p>Production web applications engineered with Next.js App Router, TypeScript, and serverless architectures designed for sub-second Core Web Vitals, enterprise scalability, and high lead conversion rates.</p>
-      <ul>
-        <li><code>Next.js 15</code> <code>React 19</code> <code>TypeScript</code> <code>Node.js</code></li>
-        <li><code>Tailwind CSS</code> <code>Shadcn UI</code> <code>Radix</code> <code>Redux Toolkit</code></li>
-        <li>SSG / ISR rendering with sub-1.2s Largest Contentful Paint (LCP)</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔍 Technical SEO, AEO & Entity Architecture</h3>
-      <p>Search visibility built directly into application architecture. We design nested JSON-LD schema graphs, semantic HTML, and crawl pathways to win top Google rankings and AI Answer Engine citations.</p>
-      <ul>
-        <li><code>Schema Graph Architecture</code> <code>Crawl Budget Optimization</code> <code>CWV</code></li>
-        <li><code>AEO (Answer Engine Optimization)</code> <code>GEO (Generative Engine)</code></li>
-        <li>Entity-based indexing for Google Search, ChatGPT Search, and Perplexity</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 Mobile & Cross-Platform Systems</h3>
-      <p>High-performance native and cross-platform mobile applications for iOS and Android, built with resilient backend APIs, offline synchronization, and secure transaction workflows.</p>
-      <ul>
-        <li><code>React Native</code> <code>Flutter</code> <code>Swift</code> <code>Kotlin</code></li>
-        <li><code>RESTful APIs</code> <code>GraphQL</code> <code>Firebase</code> <code>Supabase</code></li>
-        <li>Biometric authentication, local SQLite/Room caching, real-time sync</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>☁️ Cloud Infrastructure & DevOps</h3>
-      <p>Cloud architectures engineered for 99.9% uptime, containerized microservices, automated CI/CD deployments, and enterprise data security.</p>
-      <ul>
-        <li><code>AWS</code> <code>Google Cloud Platform</code> <code>Vercel</code> <code>Docker</code></li>
-        <li><code>PostgreSQL</code> <code>MongoDB</code> <code>Redis</code> <code>MySQL</code></li>
-        <li>PCI-compliant payment gateways: Razorpay, Stripe, PayPal, UPI</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/engineering-bento.svg" alt="Engineering Bento Grid" width="100%" />
+</div>
+
+<br/>
 
 <div align="center">
   <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
@@ -81,7 +45,8 @@
 
 <br/>
 
-## 📐 Documented Engineering Pipeline
+### 02 / PIPELINE ARCHITECTURE
+## Documented Engineering Pipeline
 
 <div align="center">
   <img src="./assets/engineering-pipeline.svg" alt="Engineering Pipeline Architecture" width="100%" />
@@ -95,7 +60,8 @@
 
 <br/>
 
-## 🔍 Entity Architecture & AI Search Engine System
+### 03 / SEARCH & AI CITATION ENGINE
+## Entity Architecture & Generative Search System
 
 <div align="center">
   <img src="./assets/search-ai-system.svg" alt="Search and AI Architecture System" width="100%" />
@@ -107,13 +73,28 @@
 
 <br/>
 
-## 🌐 Connected Technology Network
+### 04 / CONNECTED TECHNOLOGY NETWORK
+## Technology Ecosystem & Infinite Stack
 
 <div align="center">
   <img src="./assets/technology-network.svg" alt="Connected Technology Network" width="100%" />
+  <br/><br/>
+  <img src="./assets/technology-strip.svg" alt="Technology Infinite Marquee" width="100%" />
 </div>
 
 <br/>
+
+<div align="center">
+
+| Domain | Verified Stack & Tools |
+| :--- | :--- |
+| **Frontend Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js_15-111827?style=flat-square&logo=nextdotjs&logoColor=94A3B8&labelColor=111827) ![React](https://img.shields.io/badge/React_19-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=94A3B8&labelColor=111827) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=94A3B8&labelColor=111827) ![GSAP](https://img.shields.io/badge/GSAP-111827?style=flat-square&logo=greensock&logoColor=94A3B8&labelColor=111827) |
+| **Backend & APIs** | ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=94A3B8&labelColor=111827) ![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=94A3B8&labelColor=111827) ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=94A3B8&labelColor=111827) ![PHP](https://img.shields.io/badge/PHP_Laravel-111827?style=flat-square&logo=php&logoColor=94A3B8&labelColor=111827) ![GraphQL](https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql&logoColor=94A3B8&labelColor=111827) |
+| **Mobile Engineering** | ![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter&logoColor=94A3B8&labelColor=111827) ![React Native](https://img.shields.io/badge/React_Native-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![Swift](https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift&logoColor=94A3B8&labelColor=111827) ![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin&logoColor=94A3B8&labelColor=111827) |
+| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-111827?style=flat-square&logo=amazonwebservices&logoColor=94A3B8&labelColor=111827) ![GCP](https://img.shields.io/badge/Google_Cloud-111827?style=flat-square&logo=googlecloud&logoColor=94A3B8&labelColor=111827) ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=94A3B8&labelColor=111827) ![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=94A3B8&labelColor=111827) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=94A3B8&labelColor=111827) ![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=94A3B8&labelColor=111827) |
+| **Search & Analytics** | ![Technical SEO](https://img.shields.io/badge/Technical_SEO-111827?style=flat-square&logo=google&logoColor=94A3B8&labelColor=111827) ![Schema Graph](https://img.shields.io/badge/Schema.org_JSON--LD-111827?style=flat-square&labelColor=111827) ![GA4](https://img.shields.io/badge/Google_Analytics_4-111827?style=flat-square&logo=googleanalytics&logoColor=94A3B8&labelColor=111827) ![GSC](https://img.shields.io/badge/Google_Search_Console-111827?style=flat-square&labelColor=111827) |
+
+</div>
 
 <div align="center">
   <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
@@ -121,9 +102,14 @@
 
 <br/>
 
-## 🚀 Verified Production Builds & Client Platforms
+### 05 / FEATURED BUILDS & PRODUCTION PLATFORMS
+## Case Study: MobileGadgetsWorld Commerce Engine
 
-A selected catalog of production web applications, client portals, and e-commerce platforms delivered across India, USA, UK, UAE, and global markets.
+<div align="center">
+  <img src="./assets/mobilegadgetsworld-case.svg" alt="MobileGadgetsWorld Case Study Engine" width="100%" />
+</div>
+
+<br/>
 
 <table>
   <thead>
@@ -180,9 +166,8 @@ A selected catalog of production web applications, client portals, and e-commerc
 
 <br/>
 
-## 🧪 Interactive Frontend & Animation Laboratory
-
-We maintain an active open-source laboratory exploring GSAP timelines, WebGL canvas shaders, 3D CSS transforms, and DOM physics interactions.
+### 06 / INTERACTIVE LAB
+## Frontend Animation & Creative Engineering Laboratory
 
 <table>
   <tr>
@@ -213,19 +198,14 @@ We maintain an active open-source laboratory exploring GSAP timelines, WebGL can
 
 <br/>
 
-## 💻 Verified Technology Stack
+### 07 / SYSTEM STATUS
+## Live Engineering Status Log
 
 <div align="center">
-
-| Domain | Enterprise Stack |
-| :--- | :--- |
-| **Frontend Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js_15-111827?style=flat-square&logo=nextdotjs&logoColor=94A3B8&labelColor=111827) ![React](https://img.shields.io/badge/React_19-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=94A3B8&labelColor=111827) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=94A3B8&labelColor=111827) ![GSAP](https://img.shields.io/badge/GSAP-111827?style=flat-square&logo=greensock&logoColor=94A3B8&labelColor=111827) |
-| **Backend & APIs** | ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=94A3B8&labelColor=111827) ![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=94A3B8&labelColor=111827) ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=94A3B8&labelColor=111827) ![PHP](https://img.shields.io/badge/PHP_Laravel-111827?style=flat-square&logo=php&logoColor=94A3B8&labelColor=111827) ![GraphQL](https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql&logoColor=94A3B8&labelColor=111827) |
-| **Mobile Engineering** | ![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter&logoColor=94A3B8&labelColor=111827) ![React Native](https://img.shields.io/badge/React_Native-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![Swift](https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift&logoColor=94A3B8&labelColor=111827) ![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin&logoColor=94A3B8&labelColor=111827) |
-| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-111827?style=flat-square&logo=amazonwebservices&logoColor=94A3B8&labelColor=111827) ![GCP](https://img.shields.io/badge/Google_Cloud-111827?style=flat-square&logo=googlecloud&logoColor=94A3B8&labelColor=111827) ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=94A3B8&labelColor=111827) ![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=94A3B8&labelColor=111827) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=94A3B8&labelColor=111827) ![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=94A3B8&labelColor=111827) |
-| **Search & Analytics** | ![Technical SEO](https://img.shields.io/badge/Technical_SEO-111827?style=flat-square&logo=google&logoColor=94A3B8&labelColor=111827) ![Schema Graph](https://img.shields.io/badge/Schema.org_JSON--LD-111827?style=flat-square&labelColor=111827) ![GA4](https://img.shields.io/badge/Google_Analytics_4-111827?style=flat-square&logo=googleanalytics&logoColor=94A3B8&labelColor=111827) ![GSC](https://img.shields.io/badge/Google_Search_Console-111827?style=flat-square&labelColor=111827) |
-
+  <img src="./assets/terminal-status.svg" alt="Live Terminal Status" width="100%" />
 </div>
+
+<br/>
 
 <div align="center">
   <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
@@ -233,32 +213,8 @@ We maintain an active open-source laboratory exploring GSAP timelines, WebGL can
 
 <br/>
 
-## 📐 Documented 4-Phase Delivery Methodology
-
-Every client build and enterprise engagement is executed through our verified milestone framework:
-
-```
-┌────────────────────────────────┐       ┌────────────────────────────────┐
-│ 01. Discovery & Architecture   │  ───▶ │ 02. Next.js Build & QA Staging │
-│ • Written Scope & KPI Roadmap  │       │ • Sub-Second Page Speeds (CWV) │
-│ • Tech Stack & Competitor Gaps │       │ • WCAG Accessibility Review    │
-└────────────────────────────────┘       └────────────────────────────────┘
-               │                                         │
-               ▼                                         ▼
-┌────────────────────────────────┐       ┌────────────────────────────────┐
-│ 03. Search & Conversion Layer  │  ───▶ │ 04. Production Launch & GA4    │
-│ • Nested JSON-LD Schema Graphs │       │ • GA4 & Search Console Setup   │
-│ • High-Intent Copy & Link Web  │       │ • Milestone Sign-Off & Handover│
-└────────────────────────────────┘       └────────────────────────────────┘
-```
-
-<div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
-</div>
-
-<br/>
-
-## 📬 Commercial Engagements & Technical Discovery
+### 08 / COMMERCIAL INQUIRIES
+## Technical Discovery & Collaboration
 
 Speak directly with our senior full-stack architects and technical SEO leads in Delhi NCR.
 

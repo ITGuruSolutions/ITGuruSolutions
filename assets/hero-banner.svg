@@ -1,7 +1,7 @@
 <svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Master Brand Accent Gradient with Subtle Shifting Animation -->
-    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Master Brand Accent Gradient with Subtle 10s Spectral Shift -->
+    <linearGradient id="heroTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#4EC7DE">
         <animate attributeName="stop-color" values="#4EC7DE; #7F4BFA; #FF5A87; #4EC7DE" dur="10s" repeatCount="indefinite" />
       </stop>
@@ -13,25 +13,32 @@
       </stop>
     </linearGradient>
 
-    <!-- Dark SaaS Background -->
-    <linearGradient id="heroBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0E1424"/>
+    <!-- Aceternity Spotlight Background Radial Aura -->
+    <radialGradient id="spotlightGlow" cx="50%" cy="10%" r="70%">
+      <stop offset="0%" stop-color="#7F4BFA" stop-opacity="0.14"/>
+      <stop offset="50%" stop-color="#4EC7DE" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dark SaaS Canvas Base -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1526"/>
       <stop offset="100%" stop-color="#0B0F19"/>
     </linearGradient>
 
-    <!-- Subtle Architectural Grid -->
-    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.35"/>
+    <!-- Precise 32px Architectural Grid -->
+    <pattern id="archGrid32" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4"/>
     </pattern>
 
     <style>
-      .title-wordmark {
+      .wordmark {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', Arial, sans-serif;
         font-weight: 800;
         font-size: 44px;
         letter-spacing: 5px;
       }
-      .tagline-text {
+      .tagline {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
         font-weight: 600;
         font-size: 13px;
@@ -39,100 +46,105 @@
         fill: #94A3B8;
         text-transform: uppercase;
       }
-      .tech-signal {
+      .mono-signal {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        font-size: 10.5px;
+        font-size: 10px;
         font-weight: 600;
         letter-spacing: 1.5px;
         fill: #64748B;
       }
-      .status-pill {
+      .status-pill-text {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-size: 11px;
         font-weight: 600;
         letter-spacing: 1.5px;
         fill: #94A3B8;
       }
-      .metric-bold {
+      .metric-val {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
         font-weight: 700;
         font-size: 14.5px;
         fill: #F1F5F9;
       }
-      .metric-sub {
+      .metric-lbl {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
         font-weight: 500;
-        font-size: 10px;
+        font-size: 9.5px;
         fill: #64748B;
         letter-spacing: 0.8px;
         text-transform: uppercase;
       }
 
-      @keyframes statusPulse {
+      @keyframes liveSignal {
         0%, 100% { opacity: 1; transform: scale(1); }
         50% { opacity: 0.35; transform: scale(0.85); }
       }
-      .pulse-dot {
-        animation: statusPulse 3.5s ease-in-out infinite;
+      .live-signal-dot {
+        animation: liveSignal 3.5s ease-in-out infinite;
         transform-origin: 472px 38px;
       }
 
-      @keyframes signalFade {
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 0.85; }
+      @keyframes subtleFloat {
+        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-6px) translateX(3px); opacity: 0.8; }
       }
-      .signal-node {
-        animation: signalFade 6s ease-in-out infinite;
-      }
+      .particle-a { animation: subtleFloat 5s ease-in-out infinite; }
+      .particle-b { animation: subtleFloat 7s ease-in-out infinite 1.5s; }
+      .particle-c { animation: subtleFloat 6s ease-in-out infinite 3s; }
     </style>
   </defs>
 
-  <!-- Container Box -->
-  <rect width="1200" height="280" rx="12" fill="url(#heroBg)" stroke="#1E293B" stroke-width="1"/>
-  <rect width="1200" height="280" rx="12" fill="url(#archGrid)"/>
+  <!-- Base Canvas -->
+  <rect width="1200" height="280" rx="12" fill="url(#canvasBg)" stroke="#1E293B" stroke-width="1"/>
+  <rect width="1200" height="280" rx="12" fill="url(#archGrid32)"/>
+  <rect width="1200" height="280" rx="12" fill="url(#spotlightGlow)"/>
+
+  <!-- Subtle Floating Architecture Particles -->
+  <circle cx="160" cy="80" r="2.5" fill="#4EC7DE" class="particle-a"/>
+  <circle cx="1040" cy="70" r="3" fill="#7F4BFA" class="particle-b"/>
+  <circle cx="1100" cy="190" r="2.5" fill="#FF5A87" class="particle-c"/>
+  <circle cx="90" cy="180" r="2" fill="#4EC7DE" class="particle-b"/>
+  <line x1="160" y1="80" x2="210" y2="105" stroke="#4EC7DE" stroke-width="0.5" stroke-dasharray="2 2" stroke-opacity="0.3"/>
+  <line x1="1040" y1="70" x2="1100" y2="190" stroke="#7F4BFA" stroke-width="0.5" stroke-dasharray="2 2" stroke-opacity="0.25"/>
 
   <!-- Technical Corner Signals -->
-  <text x="45" y="42" class="tech-signal signal-node">01 / ENGINEERING</text>
-  <text x="1040" y="42" class="tech-signal signal-node">02 / PERFORMANCE</text>
-  <text x="45" y="248" class="tech-signal signal-node">03 / SEARCH ARCHITECTURE</text>
-  <text x="1090" y="248" class="tech-signal signal-node">04 / AI SYSTEMS</text>
+  <text x="45" y="42" class="mono-signal">01 / ENGINEERING SYSTEMS</text>
+  <text x="1025" y="42" class="mono-signal">02 / CORE WEB VITALS</text>
+  <text x="45" y="248" class="mono-signal">03 / SEARCH ARCHITECTURE</text>
+  <text x="1080" y="248" class="mono-signal">04 / AI CITATIONS</text>
 
-  <!-- Status Indicator Badge (Top Center) -->
+  <!-- Live Status Pill -->
   <g>
     <rect x="455" y="26" width="290" height="24" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="472" cy="38" r="3.5" fill="#10B981" class="pulse-dot"/>
-    <text x="484" y="42" class="status-pill">DELHI NCR, INDIA • ACTIVE</text>
+    <circle cx="472" cy="38" r="3.5" fill="#10B981" class="live-signal-dot"/>
+    <text x="484" y="42" class="status-pill-text">DELHI NCR, INDIA • ACTIVE</text>
   </g>
 
-  <!-- Main Wordmark -->
-  <text x="600" y="112" text-anchor="middle" class="title-wordmark" fill="url(#heroGradient)">IT GURU SOLUTIONS</text>
+  <!-- Wordmark -->
+  <text x="600" y="112" text-anchor="middle" class="wordmark" fill="url(#heroTitleGrad)">IT GURU SOLUTIONS</text>
 
-  <!-- 2px Precision Gradient Underline -->
-  <rect x="460" y="126" width="280" height="2" rx="1" fill="url(#heroGradient)"/>
+  <!-- 2px Precision Underline -->
+  <rect x="460" y="126" width="280" height="2" rx="1" fill="url(#heroTitleGrad)"/>
 
   <!-- Tagline -->
-  <text x="600" y="154" text-anchor="middle" class="tagline-text">TECHNOLOGY • ENGINEERING • DIGITAL GROWTH</text>
+  <text x="600" y="154" text-anchor="middle" class="tagline">TECHNOLOGY • ENGINEERING • DIGITAL GROWTH</text>
 
-  <!-- Metric Matrix (4 Restrained Neutral Cards) -->
+  <!-- 4 Verified Metric Cards -->
   <g transform="translate(150, 185)">
-    <!-- 01 -->
     <rect x="0" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="100" y="23" text-anchor="middle" class="metric-bold">1,500+ Builds</text>
-    <text x="100" y="39" text-anchor="middle" class="metric-sub">Delivered Since 2020</text>
+    <text x="100" y="23" text-anchor="middle" class="metric-val">1,500+ Builds</text>
+    <text x="100" y="39" text-anchor="middle" class="metric-lbl">Delivered Since 2020</text>
 
-    <!-- 02 -->
     <rect x="233" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="333" y="23" text-anchor="middle" class="metric-bold">98% Satisfaction</text>
-    <text x="333" y="39" text-anchor="middle" class="metric-sub">127+ Client Reviews</text>
+    <text x="333" y="23" text-anchor="middle" class="metric-val">98% Satisfaction</text>
+    <text x="333" y="39" text-anchor="middle" class="metric-lbl">127+ Client Reviews</text>
 
-    <!-- 03 -->
     <rect x="466" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="566" y="23" text-anchor="middle" class="metric-bold">&lt; 1.2s LCP Speed</text>
-    <text x="566" y="39" text-anchor="middle" class="metric-sub">Core Web Vitals</text>
+    <text x="566" y="23" text-anchor="middle" class="metric-val">&lt; 1.2s LCP Speed</text>
+    <text x="566" y="39" text-anchor="middle" class="metric-lbl">Core Web Vitals</text>
 
-    <!-- 04 -->
     <rect x="700" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="800" y="23" text-anchor="middle" class="metric-bold">15+ Countries</text>
-    <text x="800" y="39" text-anchor="middle" class="metric-sub">Global Footprint</text>
+    <text x="800" y="23" text-anchor="middle" class="metric-val">15+ Countries</text>
+    <text x="800" y="39" text-anchor="middle" class="metric-lbl">Global Footprint</text>
   </g>
 </svg>

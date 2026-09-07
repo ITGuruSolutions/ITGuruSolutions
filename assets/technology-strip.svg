@@ -1,0 +1,44 @@
+<svg width="1200" height="48" viewBox="0 0 1200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fadeEdgeL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeEdgeR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="1"/>
+    </linearGradient>
+    <style>
+      .strip-item {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #94A3B8;
+        letter-spacing: 1.5px;
+      }
+      .strip-dot {
+        fill: #4EC7DE;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="48" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Moving Marquee Group -->
+  <g transform="translate(0, 28)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0, 0" to="-900, 0" dur="20s" repeatCount="indefinite"/>
+      <text x="0" class="strip-item">
+        NEXT.JS 15 <tspan class="strip-dot">✦</tspan> REACT 19 <tspan class="strip-dot">✦</tspan> TYPESCRIPT 5 <tspan class="strip-dot">✦</tspan> NODE.JS <tspan class="strip-dot">✦</tspan> POSTGRESQL <tspan class="strip-dot">✦</tspan> AWS CLOUD <tspan class="strip-dot">✦</tspan> DOCKER <tspan class="strip-dot">✦</tspan> TAILWIND V4 <tspan class="strip-dot">✦</tspan> REDIS <tspan class="strip-dot">✦</tspan> FLUTTER <tspan class="strip-dot">✦</tspan> TECHNICAL SEO <tspan class="strip-dot">✦</tspan> AEO / GEO AI SEARCH <tspan class="strip-dot">✦</tspan>
+      </text>
+      <!-- Duplicate for seamless infinite loop -->
+      <text x="900" class="strip-item">
+        NEXT.JS 15 <tspan class="strip-dot">✦</tspan> REACT 19 <tspan class="strip-dot">✦</tspan> TYPESCRIPT 5 <tspan class="strip-dot">✦</tspan> NODE.JS <tspan class="strip-dot">✦</tspan> POSTGRESQL <tspan class="strip-dot">✦</tspan> AWS CLOUD <tspan class="strip-dot">✦</tspan> DOCKER <tspan class="strip-dot">✦</tspan> TAILWIND V4 <tspan class="strip-dot">✦</tspan> REDIS <tspan class="strip-dot">✦</tspan> FLUTTER <tspan class="strip-dot">✦</tspan> TECHNICAL SEO <tspan class="strip-dot">✦</tspan> AEO / GEO AI SEARCH <tspan class="strip-dot">✦</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Left & Right Vignette Fades for Edge Smoothness -->
+  <rect x="0" y="1" width="80" height="46" fill="url(#fadeEdgeL)"/>
+  <rect x="1120" y="1" width="80" height="46" fill="url(#fadeEdgeR)"/>
+</svg>
