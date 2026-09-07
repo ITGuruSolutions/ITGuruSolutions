@@ -1,0 +1,39 @@
+<svg width="900" height="12" viewBox="0 0 900 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divBase" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#334155" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#475569" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#334155" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="pulseBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#818CF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Line -->
+  <line x1="50" y1="6" x2="850" y2="6" stroke="url(#divBase)" stroke-width="1.5"/>
+
+  <!-- Traveling Pulse -->
+  <rect x="0" y="4" width="180" height="4" rx="2" fill="url(#pulseBeam)" filter="url(#glow)">
+    <animate attributeName="x" values="0; 720; 0" dur="5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Center Diamond -->
+  <polygon points="450,2 454,6 450,10 446,6" fill="#38BDF8">
+    <animate attributeName="fill" values="#38BDF8; #818CF8; #34D399; #38BDF8" dur="4s" repeatCount="indefinite"/>
+  </polygon>
+</svg>
