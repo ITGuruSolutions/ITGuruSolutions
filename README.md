@@ -1,142 +1,218 @@
 <div align="center">
 
+<!-- HERO BANNER -->
+<a href="https://itgurusolutions.in" target="_blank" rel="noopener noreferrer">
   <img src="./assets/hero-banner.svg" alt="IT Guru Solutions — Technology • Engineering • Digital Growth" width="100%" />
+</a>
 
+<br/><br/>
+
+<!-- SYSTEM STATUS & IDENTITY BADGES -->
+[![Website](https://img.shields.io/badge/Domain-itgurusolutions.in-111827?style=flat-square&logo=googlechrome&logoColor=4EC7DE&labelColor=0B0F19)](https://itgurusolutions.in)
+[![GitHub](https://img.shields.io/badge/Organization-ITGuruSolutions-111827?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=0B0F19)](https://github.com/ITGuruSolutions)
+[![Location](https://img.shields.io/badge/HQ-Delhi_NCR,_India-111827?style=flat-square&logo=googlemaps&logoColor=FF5A87&labelColor=0B0F19)](https://itgurusolutions.in)
+[![Status](https://img.shields.io/badge/Engineering-Production_Ready-111827?style=flat-square&logo=statuspage&logoColor=4EC7DE&labelColor=0B0F19)](https://itgurusolutions.in)
+[![Delivery](https://img.shields.io/badge/Global_Delivery-15+_Countries-111827?style=flat-square&logo=fastapi&logoColor=7F4BFA&labelColor=0B0F19)](https://itgurusolutions.in)
+
+<br/>
+
+<!-- QUICK NAVIGATION -->
+[`ABOUT`](#01--about) &nbsp;·&nbsp;
+[`SYSTEMS`](#02--engineering-systems) &nbsp;·&nbsp;
+[`LIFECYCLE`](#03--lifecycle-methodology) &nbsp;·&nbsp;
+[`SEARCH & AI`](#04--search-architecture--aeo--geo) &nbsp;·&nbsp;
+[`AI WORKFLOWS`](#05--ai-automation--agent-workflows) &nbsp;·&nbsp;
+[`STACK`](#06--technology-network) &nbsp;·&nbsp;
+[`BUILDS`](#07--flagship-engineering-builds) &nbsp;·&nbsp;
+[`CASE STUDY`](#08--case-study-mobilegadgetsworld) &nbsp;·&nbsp;
+[`LAB`](#09--interactive--motion-lab) &nbsp;·&nbsp;
+[`STATUS`](#10--live-engineering-status) &nbsp;·&nbsp;
+[`INQUIRIES`](#11--commercial-inquiries)
+
+<br/><br/>
+
+<!-- ENGINEERING METRICS CARD -->
+<img src="./assets/stats-metrics.svg" alt="Engineering Statistics and Performance Metrics" width="100%" />
+
+<br/><br/>
+
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+</div>
+
+<br/>
+
+## 01 / ABOUT
+
+**IT Guru Solutions** is a technology and digital engineering firm headquartered in Delhi NCR, India. Since 2020, our engineering and search architecture teams have delivered **1,500+ verified production deployments across 15+ countries**. 
+
+We build high-concurrency **Next.js web platforms**, enterprise **e-commerce engines**, native and cross-platform **mobile applications**, and entity-structured **Technical SEO & AI Search architectures (AEO/GEO)**.
+
+```
+SYSTEM ARCHITECTURE: ZERO-TRUST · TYPE-SAFE · CLOUD-NATIVE · SEARCH-INDEXED
+HEADQUARTERS:        DELHI NCR, INDIA (SERVING NATIONWIDE & GLOBALLY)
+PRODUCTION STATS:    1,500+ BUILDS DELIVERED · 98% SATISFACTION INDEX · 92 REPOSITORIES
+```
+
+<br/>
+
+<div align="center">
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+</div>
+
+<br/>
+
+## 02 / ENGINEERING SYSTEMS
+
+<div align="center">
+  <img src="./assets/engineering-bento.svg" alt="Core Engineering Disciplines — Bento Grid" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+</div>
+
+<br/>
+
+## 03 / LIFECYCLE METHODOLOGY
+
+From requirements specification to global edge deployment, every build adheres to rigorous engineering standards.
+
+<div align="center">
+  <img src="./assets/engineering-timeline.svg" alt="7-Stage Engineering Lifecycle Timeline" width="100%" />
   <br/><br/>
-
-  <!-- Neutral Metadata Badges & Single Gradient CTA -->
-  <a href="https://itgurusolutions.in/"><img src="https://img.shields.io/badge/Domain-itgurusolutions.in-111827?style=flat-square&logo=google-chrome&logoColor=94A3B8&labelColor=111827" alt="Website" /></a>
-  <a href="https://itgurusolutions.in/locations/"><img src="https://img.shields.io/badge/HQ-Delhi_NCR,_India-111827?style=flat-square&logo=google-maps&logoColor=94A3B8&labelColor=111827" alt="Location" /></a>
-  <a href="https://itgurusolutions.in/services/web-development/"><img src="https://img.shields.io/badge/Stack-Next.js_|_TypeScript_|_Cloud-111827?style=flat-square&logo=nextdotjs&logoColor=94A3B8&labelColor=111827" alt="Core Stack" /></a>
-  <a href="https://itgurusolutions.in/contact/"><img src="https://img.shields.io/badge/Status-Available_for_Q3_|_Q4-111827?style=flat-square&logoColor=94A3B8&labelColor=111827" alt="Status" /></a>
-
-  <br/><br/>
-
-  <p align="center">
-    <b>IT Guru Solutions</b> is a technology and digital engineering firm headquartered in Delhi NCR, India. Since 2020, our engineering and search architecture teams have delivered <b>1,500+ verified production deployments across 15+ countries</b>. We build high-speed <b>Next.js web platforms</b>, native and cross-platform <b>mobile systems</b>, and entity-structured <b>Technical SEO & AI Search architectures (AEO/GEO)</b>.
-  </p>
-
-  <br/>
-
-  <a href="https://itgurusolutions.in/contact/">
-    <img src="./assets/cta-primary.svg" alt="Schedule Discovery Call" height="38" />
-  </a>
-
-  <br/><br/>
-
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
-
+  <img src="./assets/engineering-pipeline.svg" alt="6-Stage Engineering Delivery Pipeline" width="100%" />
 </div>
 
 <br/>
 
-### 01 / ENGINEERING SYSTEMS
-## Core Engineering Disciplines
-
-<div align="center">
-  <img src="./assets/engineering-bento.svg" alt="Engineering Bento Grid" width="100%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
-</div>
-
-<br/>
-
-### 02 / PIPELINE ARCHITECTURE
-## Documented Engineering Pipeline
-
-<div align="center">
-  <img src="./assets/engineering-pipeline.svg" alt="Engineering Pipeline Architecture" width="100%" />
-</div>
+| Stage | Focus Area | Technical Deliverable |
+| :--- | :--- | :--- |
+| **01. Discovery** | Domain Modeling & Requirements | PRD, Architecture Decision Records (ADRs), Data Schemas |
+| **02. Architect** | Distributed Topology & Microservices | API Contracts, Zero-Trust Auth, Database Entity Relations |
+| **03. Design** | Design Systems & Component Tokens | WCAG 2.1 AAA Compliant Design Tokens, Interactive Prototypes |
+| **04. Build** | Full-Stack Core Implementation | Type-Safe Frontend (Next.js/React 19) + Scalable Backend APIs |
+| **05. Optimise** | Core Web Vitals & Search Topology | Sub-second LCP/INP, Schema.org Knowledge Graph Integration |
+| **06. Deploy** | Container Orchestration & CI/CD | Docker, Edge Functions, Automated Regression & Health Checks |
+| **07. Scale** | Real-Time Telemetry & Observability | Distributed Tracing, Error Monitoring, SRE SLA Enforcement |
 
 <br/>
 
 <div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
 
-### 03 / SEARCH & AI CITATION ENGINE
-## Entity Architecture & Generative Search System
+## 04 / SEARCH ARCHITECTURE · AEO / GEO
+
+Modern discoverability requires structured entity indexing for traditional search algorithms, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO).
 
 <div align="center">
-  <img src="./assets/search-ai-system.svg" alt="Search and AI Architecture System" width="100%" />
+  <img src="./assets/search-ai-system.svg" alt="Search & AI Optimization System Architecture" width="100%" />
 </div>
 
-<div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
-</div>
-
-<br/>
-
-### 04 / CONNECTED TECHNOLOGY NETWORK
-## Technology Ecosystem & Infinite Stack
-
-<div align="center">
-  <img src="./assets/technology-network.svg" alt="Connected Technology Network" width="100%" />
-  <br/><br/>
-  <img src="./assets/technology-strip.svg" alt="Technology Infinite Marquee" width="100%" />
-</div>
+```
+KNOWLEDGE GRAPH ENTITY GRAPH:
+[ Raw Content ] ──► [ Semantic Extraction ] ──► [ Schema.org Graph ] ──► [ Edge Search ] ──► [ AEO / GEO AI Model Citations ]
+```
 
 <br/>
 
 <div align="center">
-
-| Domain | Verified Stack & Tools |
-| :--- | :--- |
-| **Frontend Frameworks** | ![Next.js](https://img.shields.io/badge/Next.js_15-111827?style=flat-square&logo=nextdotjs&logoColor=94A3B8&labelColor=111827) ![React](https://img.shields.io/badge/React_19-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=94A3B8&labelColor=111827) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=flat-square&logo=tailwindcss&logoColor=94A3B8&labelColor=111827) ![GSAP](https://img.shields.io/badge/GSAP-111827?style=flat-square&logo=greensock&logoColor=94A3B8&labelColor=111827) |
-| **Backend & APIs** | ![Node.js](https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=94A3B8&labelColor=111827) ![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=94A3B8&labelColor=111827) ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=94A3B8&labelColor=111827) ![PHP](https://img.shields.io/badge/PHP_Laravel-111827?style=flat-square&logo=php&logoColor=94A3B8&labelColor=111827) ![GraphQL](https://img.shields.io/badge/GraphQL-111827?style=flat-square&logo=graphql&logoColor=94A3B8&labelColor=111827) |
-| **Mobile Engineering** | ![Flutter](https://img.shields.io/badge/Flutter-111827?style=flat-square&logo=flutter&logoColor=94A3B8&labelColor=111827) ![React Native](https://img.shields.io/badge/React_Native-111827?style=flat-square&logo=react&logoColor=94A3B8&labelColor=111827) ![Swift](https://img.shields.io/badge/Swift-111827?style=flat-square&logo=swift&logoColor=94A3B8&labelColor=111827) ![Kotlin](https://img.shields.io/badge/Kotlin-111827?style=flat-square&logo=kotlin&logoColor=94A3B8&labelColor=111827) |
-| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-111827?style=flat-square&logo=amazonwebservices&logoColor=94A3B8&labelColor=111827) ![GCP](https://img.shields.io/badge/Google_Cloud-111827?style=flat-square&logo=googlecloud&logoColor=94A3B8&labelColor=111827) ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=94A3B8&labelColor=111827) ![Vercel](https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=94A3B8&labelColor=111827) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=94A3B8&labelColor=111827) ![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=94A3B8&labelColor=111827) |
-| **Search & Analytics** | ![Technical SEO](https://img.shields.io/badge/Technical_SEO-111827?style=flat-square&logo=google&logoColor=94A3B8&labelColor=111827) ![Schema Graph](https://img.shields.io/badge/Schema.org_JSON--LD-111827?style=flat-square&labelColor=111827) ![GA4](https://img.shields.io/badge/Google_Analytics_4-111827?style=flat-square&logo=googleanalytics&logoColor=94A3B8&labelColor=111827) ![GSC](https://img.shields.io/badge/Google_Search_Console-111827?style=flat-square&labelColor=111827) |
-
-</div>
-
-<div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
 
-### 05 / FEATURED BUILDS & PRODUCTION PLATFORMS
-## Case Study: MobileGadgetsWorld Commerce Engine
+## 05 / AI AUTOMATION & AGENT WORKFLOWS
+
+We build deterministic, enterprise-grade AI automation pipelines connecting business triggers to autonomous agent reasoning.
 
 <div align="center">
-  <img src="./assets/mobilegadgetsworld-case.svg" alt="MobileGadgetsWorld Case Study Engine" width="100%" />
+  <img src="./assets/ai-agent-workflow.svg" alt="AI Agent and Automation Workflow Pipeline" width="100%" />
+</div>
+
+```
+ORCHESTRATION STACK:
+• Workflow Orchestration: n8n, Apache Airflow, Temporal
+• Context & Vector Memory: pgvector (PostgreSQL), Redis Embeddings, Pinecone
+• Model Inference Layer:   OpenAI GPT-4o, Anthropic Claude 3.5, Llama 3 Edge
+• Output Safety & Schema:  Zod Type-Validation, JSON Schema Constrained Generation
+```
+
+<br/>
+
+<div align="center">
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
+
+## 06 / TECHNOLOGY NETWORK
+
+### Distributed Stack Ecosystem
+
+<div align="center">
+  <img src="./assets/technology-network.svg" alt="Technology Network Topology" width="100%" />
+</div>
+
+<br/>
+
+### Continuous Technology Stream
+
+<div align="center">
+  <img src="./assets/technology-strip.svg" alt="Continuous Technology Stream" width="100%" />
+</div>
+
+<br/>
+
+| Layer | Primary Technologies | Architecture Role |
+| :--- | :--- | :--- |
+| **Frontend & UI** | Next.js 15/16, React 19, TypeScript, Tailwind CSS, Radix UI | Server Components, Edge Rendering, Optimistic UI |
+| **Backend & Services** | Node.js, NestJS, Python, FastAPI, Go, GraphQL | Microservices, Event-Driven APIs, Message Brokers |
+| **Data & Storage** | PostgreSQL, Prisma, MongoDB, Redis, pgvector | ACID Transactions, In-Memory Caching, Vector Embeddings |
+| **Cloud & DevOps** | AWS, Google Cloud, Docker, Vercel, Cloudflare Workers | Serverless Functions, Edge Caching, Containerization |
+| **Search & AI** | Schema.org Graphs, n8n, OpenAI/Anthropic APIs, LangChain | Semantic Search, Entity Linking, Autonomous Workflows |
+| **Mobile** | React Native, Flutter, Expo, Swift, Kotlin | Cross-Platform Native Apps with Shared Business Logic |
+
+<br/>
+
+<div align="center">
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+</div>
+
+<br/>
+
+## 07 / FLAGSHIP ENGINEERING BUILDS
 
 <table>
   <thead>
     <tr>
-      <th width="32%">Client / Platform</th>
-      <th width="20%">Vertical</th>
-      <th width="30%">Architecture Stack</th>
-      <th width="18%">Deployment</th>
+      <th width="30%">Platform / System</th>
+      <th width="22%">Vertical Domain</th>
+      <th width="32%">Architecture Stack</th>
+      <th width="16%">Live URL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>MobileGadgetsWorld</b><br/><sub>High-conversion electronics e-commerce</sub></td>
+      <td><b>MobileGadgetsWorld</b><br/><sub>High-conversion electronics commerce engine</sub></td>
       <td><code>E-Commerce & Retail</code></td>
-      <td><code>Next.js</code> <code>TypeScript</code> <code>TailwindCSS</code></td>
+      <td><code>Next.js 16</code> <code>TypeScript</code> <code>PostgreSQL</code></td>
       <td><a href="https://mobilegadgetsworlds.vercel.app"><b>Production URL ↗</b></a></td>
     </tr>
     <tr>
       <td><b>PayMyTrip</b><br/><sub>Travel booking engine & itinerary management</sub></td>
       <td><code>Travel & Hospitality</code></td>
-      <td><code>JavaScript</code> <code>Booking Engine</code> <code>APIs</code></td>
+      <td><code>React</code> <code>Node.js</code> <code>Payment APIs</code></td>
       <td><a href="https://pay-my-trip.vercel.app"><b>Production URL ↗</b></a></td>
     </tr>
     <tr>
       <td><b>Firmsap Rentals</b><br/><sub>B2B enterprise IT equipment & laptop rentals</sub></td>
       <td><code>Enterprise Tech Rental</code></td>
-      <td><code>Next.js</code> <code>Catalog Engine</code> <code>SEO</code></td>
+      <td><code>Next.js</code> <code>PostgreSQL</code> <code>Auth.js</code></td>
       <td><a href="https://firmsap.vercel.app"><b>Production URL ↗</b></a></td>
     </tr>
     <tr>
@@ -160,14 +236,46 @@
   </tbody>
 </table>
 
+<br/>
+
 <div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
 
-### 06 / INTERACTIVE LAB
-## Frontend Animation & Creative Engineering Laboratory
+## 08 / CASE STUDY: MOBILEGADGETSWORLD
+
+**MobileGadgetsWorld** is IT Guru Solutions' flagship e-commerce engineering showcase.
+
+<div align="center">
+  <img src="./assets/mobilegadgetsworld-case.svg" alt="MobileGadgetsWorld Case Study Engine" width="100%" />
+</div>
+
+### Architectural Highlights
+
+- **Frontend Core**: Next.js App Router with React Server Components (RSC) eliminating client bundle overhead for product catalog listings.
+- **Transactional Backend**: Relational persistence on PostgreSQL with parameterized connection pooling and strict schema validation.
+- **Search & Filter Pipeline**: Sub-10ms faceted filtering across brand, specifications, price ranges, and real-time inventory levels.
+- **Authentication & Notifications**: Multi-provider secure session management with automated transactional email design systems.
+
+<br/>
+
+<div align="center">
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+</div>
+
+<br/>
+
+## 09 / INTERACTIVE & MOTION LAB
+
+Showcase of creative frontend engineering, 3D WebGL experiments, and kinetic typography.
+
+<div align="center">
+  <img src="./assets/interactive-lab.svg" alt="Interactive UI & Motion Engineering Lab" width="100%" />
+</div>
+
+<br/>
 
 <table>
   <tr>
@@ -192,14 +300,15 @@
   </tr>
 </table>
 
+<br/>
+
 <div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
 
-### 07 / SYSTEM STATUS
-## Live Engineering Status Log
+## 10 / LIVE ENGINEERING STATUS
 
 <div align="center">
   <img src="./assets/terminal-status.svg" alt="Live Terminal Status" width="100%" />
@@ -208,19 +317,18 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/section-divider.svg" alt="Divider" width="100%" />
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 </div>
 
 <br/>
 
-### 08 / COMMERCIAL INQUIRIES
-## Technical Discovery & Collaboration
+## 11 / COMMERCIAL INQUIRIES
 
-Speak directly with our senior full-stack architects and technical SEO leads in Delhi NCR.
+We partner with high-growth startups, mid-market enterprises, and ambitious product teams to build mission-critical digital systems.
 
 <div align="center">
 
-<a href="https://itgurusolutions.in/contact/">
+<a href="https://itgurusolutions.in/contact/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/cta-primary.svg" alt="Schedule Discovery Call" height="42" />
 </a>
 
