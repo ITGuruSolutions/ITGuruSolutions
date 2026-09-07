@@ -1,0 +1,93 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Brand Gradient for Traveling Signal -->
+    <linearGradient id="pipePulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7F4BFA" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF5A87" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .node-num {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 9.5px;
+        font-weight: 700;
+        fill: #64748B;
+        letter-spacing: 1px;
+      }
+      .node-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #F1F5F9;
+        letter-spacing: 1px;
+      }
+      .node-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 9.5px;
+        fill: #94A3B8;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="110" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Static Connecting Bus -->
+  <line x1="80" y1="55" x2="1120" y2="55" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Traveling Gradient Pulse (Flow Signal) -->
+  <rect x="80" y="54" width="220" height="2" rx="1" fill="url(#pipePulse)">
+    <animate attributeName="x" values="80; 900; 80" dur="7s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Node 1: Discover -->
+  <g transform="translate(60, 22)">
+    <rect width="160" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">01 / STAGE</text>
+    <text x="14" y="40" class="node-title">DISCOVERY</text>
+    <text x="14" y="54" class="node-sub">Scope &amp; Architecture</text>
+  </g>
+
+  <!-- Node 2: Architect -->
+  <g transform="translate(255, 22)">
+    <rect width="160" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">02 / STAGE</text>
+    <text x="14" y="40" class="node-title">NEXT.JS BUILD</text>
+    <text x="14" y="54" class="node-sub">Full-Stack &amp; QA</text>
+  </g>
+
+  <!-- Node 3: Search Engine -->
+  <g transform="translate(450, 22)">
+    <rect width="160" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">03 / STAGE</text>
+    <text x="14" y="40" class="node-title">SEARCH LAYER</text>
+    <text x="14" y="54" class="node-sub">Schema &amp; AEO / GEO</text>
+  </g>
+
+  <!-- Node 4: Optimization -->
+  <g transform="translate(645, 22)">
+    <rect width="160" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">04 / STAGE</text>
+    <text x="14" y="40" class="node-title">PERFORMANCE</text>
+    <text x="14" y="54" class="node-sub">Sub-Second CWV</text>
+  </g>
+
+  <!-- Node 5: Deploy -->
+  <g transform="translate(840, 22)">
+    <rect width="160" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">05 / STAGE</text>
+    <text x="14" y="40" class="node-title">PRODUCTION</text>
+    <text x="14" y="54" class="node-sub">Cloud Deploy &amp; GA4</text>
+  </g>
+
+  <!-- Node 6: Scale -->
+  <g transform="translate(1035, 22)">
+    <rect width="105" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="node-num">06 / STAGE</text>
+    <text x="14" y="40" class="node-title">SCALE</text>
+    <text x="14" y="54" class="node-sub">Organic Growth</text>
+  </g>
+</svg>

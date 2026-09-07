@@ -1,114 +1,138 @@
 <svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Single Master Brand Gradient -->
-    <linearGradient id="brandAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4EC7DE"/>
-      <stop offset="50%" stop-color="#7F4BFA"/>
-      <stop offset="100%" stop-color="#FF5A87"/>
+    <!-- Master Brand Accent Gradient with Subtle Shifting Animation -->
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE">
+        <animate attributeName="stop-color" values="#4EC7DE; #7F4BFA; #FF5A87; #4EC7DE" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#7F4BFA">
+        <animate attributeName="stop-color" values="#7F4BFA; #FF5A87; #4EC7DE; #7F4BFA" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FF5A87">
+        <animate attributeName="stop-color" values="#FF5A87; #4EC7DE; #7F4BFA; #FF5A87" dur="10s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
-    <!-- Subtle Card Background Gradient -->
-    <linearGradient id="bgLinear" x1="0%" y1="0%" x2="0%" y2="100%">
+    <!-- Dark SaaS Background -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0E1424"/>
       <stop offset="100%" stop-color="#0B0F19"/>
     </linearGradient>
 
-    <!-- Subtle Grid -->
-    <pattern id="subtleGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <!-- Subtle Architectural Grid -->
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.35"/>
     </pattern>
 
     <style>
-      .wordmark {
+      .title-wordmark {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', Arial, sans-serif;
         font-weight: 800;
-        font-size: 46px;
-        letter-spacing: 4px;
+        font-size: 44px;
+        letter-spacing: 5px;
       }
-      .tagline {
+      .tagline-text {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
-        font-weight: 500;
-        font-size: 13.5px;
-        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 3.5px;
         fill: #94A3B8;
         text-transform: uppercase;
       }
-      .mono-pill {
+      .tech-signal {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        fill: #64748B;
+      }
+      .status-pill {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-size: 11px;
         font-weight: 600;
         letter-spacing: 1.5px;
         fill: #94A3B8;
       }
-      .metric-value {
+      .metric-bold {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14.5px;
         fill: #F1F5F9;
-        letter-spacing: 0.5px;
       }
-      .metric-key {
+      .metric-sub {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
         font-weight: 500;
         font-size: 10px;
         fill: #64748B;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
         text-transform: uppercase;
       }
 
-      @keyframes subtlePulse {
+      @keyframes statusPulse {
         0%, 100% { opacity: 1; transform: scale(1); }
         50% { opacity: 0.35; transform: scale(0.85); }
       }
-      .live-dot {
-        animation: subtlePulse 3.5s ease-in-out infinite;
-        transform-origin: 472px 42px;
+      .pulse-dot {
+        animation: statusPulse 3.5s ease-in-out infinite;
+        transform-origin: 472px 38px;
+      }
+
+      @keyframes signalFade {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.85; }
+      }
+      .signal-node {
+        animation: signalFade 6s ease-in-out infinite;
       }
     </style>
   </defs>
 
-  <!-- Container Surface -->
-  <rect width="1200" height="280" rx="12" fill="url(#bgLinear)" stroke="#1E293B" stroke-width="1"/>
+  <!-- Container Box -->
+  <rect width="1200" height="280" rx="12" fill="url(#heroBg)" stroke="#1E293B" stroke-width="1"/>
+  <rect width="1200" height="280" rx="12" fill="url(#archGrid)"/>
 
-  <!-- Subtle Architectural Grid Overlay -->
-  <rect width="1200" height="280" rx="12" fill="url(#subtleGrid)"/>
+  <!-- Technical Corner Signals -->
+  <text x="45" y="42" class="tech-signal signal-node">01 / ENGINEERING</text>
+  <text x="1040" y="42" class="tech-signal signal-node">02 / PERFORMANCE</text>
+  <text x="45" y="248" class="tech-signal signal-node">03 / SEARCH ARCHITECTURE</text>
+  <text x="1090" y="248" class="tech-signal signal-node">04 / AI SYSTEMS</text>
 
-  <!-- Top Status Pill -->
-  <g transform="translate(0, 0)">
-    <rect x="455" y="30" width="290" height="24" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="472" cy="42" r="3.5" fill="#10B981" class="live-dot"/>
-    <text x="484" y="46" class="mono-pill">DELHI NCR, INDIA • ACTIVE</text>
+  <!-- Status Indicator Badge (Top Center) -->
+  <g>
+    <rect x="455" y="26" width="290" height="24" rx="12" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="472" cy="38" r="3.5" fill="#10B981" class="pulse-dot"/>
+    <text x="484" y="42" class="status-pill">DELHI NCR, INDIA • ACTIVE</text>
   </g>
 
   <!-- Main Wordmark -->
-  <text x="600" y="118" text-anchor="middle" class="wordmark" fill="url(#brandAccentGrad)">IT GURU SOLUTIONS</text>
+  <text x="600" y="112" text-anchor="middle" class="title-wordmark" fill="url(#heroGradient)">IT GURU SOLUTIONS</text>
 
-  <!-- 2px Precision Accent Underline -->
-  <rect x="450" y="132" width="300" height="2" rx="1" fill="url(#brandAccentGrad)"/>
+  <!-- 2px Precision Gradient Underline -->
+  <rect x="460" y="126" width="280" height="2" rx="1" fill="url(#heroGradient)"/>
 
   <!-- Tagline -->
-  <text x="600" y="162" text-anchor="middle" class="tagline">ENGINEERING DIGITAL PLATFORMS • TECHNICAL SEO &amp; AI SEARCH ARCHITECTURE</text>
+  <text x="600" y="154" text-anchor="middle" class="tagline-text">TECHNOLOGY • ENGINEERING • DIGITAL GROWTH</text>
 
-  <!-- Metrics Matrix (4 Compact SaaS Badges) -->
-  <g transform="translate(150, 195)">
-    <!-- Metric 1 -->
-    <rect x="0" y="0" width="200" height="52" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="100" y="24" text-anchor="middle" class="metric-value">1,500+ Builds</text>
-    <text x="100" y="41" text-anchor="middle" class="metric-key">Delivered Since 2020</text>
+  <!-- Metric Matrix (4 Restrained Neutral Cards) -->
+  <g transform="translate(150, 185)">
+    <!-- 01 -->
+    <rect x="0" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="100" y="23" text-anchor="middle" class="metric-bold">1,500+ Builds</text>
+    <text x="100" y="39" text-anchor="middle" class="metric-sub">Delivered Since 2020</text>
 
-    <!-- Metric 2 -->
-    <rect x="233" y="0" width="200" height="52" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="333" y="24" text-anchor="middle" class="metric-value">98% Satisfaction</text>
-    <text x="333" y="41" text-anchor="middle" class="metric-key">127+ Client Reviews</text>
+    <!-- 02 -->
+    <rect x="233" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="333" y="23" text-anchor="middle" class="metric-bold">98% Satisfaction</text>
+    <text x="333" y="39" text-anchor="middle" class="metric-sub">127+ Client Reviews</text>
 
-    <!-- Metric 3 -->
-    <rect x="466" y="0" width="200" height="52" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="566" y="24" text-anchor="middle" class="metric-value">&lt; 1.2s Load Speed</text>
-    <text x="566" y="41" text-anchor="middle" class="metric-key">Core Web Vitals</text>
+    <!-- 03 -->
+    <rect x="466" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="566" y="23" text-anchor="middle" class="metric-bold">&lt; 1.2s LCP Speed</text>
+    <text x="566" y="39" text-anchor="middle" class="metric-sub">Core Web Vitals</text>
 
-    <!-- Metric 4 -->
-    <rect x="700" y="0" width="200" height="52" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
-    <text x="800" y="24" text-anchor="middle" class="metric-value">15+ Countries</text>
-    <text x="800" y="41" text-anchor="middle" class="metric-key">Global Footprint</text>
+    <!-- 04 -->
+    <rect x="700" y="0" width="200" height="50" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="800" y="23" text-anchor="middle" class="metric-bold">15+ Countries</text>
+    <text x="800" y="39" text-anchor="middle" class="metric-sub">Global Footprint</text>
   </g>
 </svg>

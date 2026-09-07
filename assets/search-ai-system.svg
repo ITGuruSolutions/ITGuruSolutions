@@ -1,0 +1,83 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scanPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7F4BFA" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF5A87" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .step-code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 9.5px;
+        font-weight: 700;
+        fill: #64748B;
+        letter-spacing: 1px;
+      }
+      .step-header {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #F1F5F9;
+        letter-spacing: 0.8px;
+      }
+      .step-detail {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 9.5px;
+        fill: #94A3B8;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Surface -->
+  <rect width="1200" height="110" rx="10" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Static Entity Bus Line -->
+  <line x1="80" y1="55" x2="1120" y2="55" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Scanning Pulse Effect -->
+  <rect x="80" y="54" width="220" height="2" rx="1" fill="url(#scanPulse)">
+    <animate attributeName="x" values="80; 900; 80" dur="8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Step 1 -->
+  <g transform="translate(60, 22)">
+    <rect width="195" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="step-code">01 / SEMANTICS</text>
+    <text x="14" y="40" class="step-header">SEMANTIC CONTENT</text>
+    <text x="14" y="54" class="step-detail">HTML5 &amp; Intent Architecture</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(285, 22)">
+    <rect width="195" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="step-code">02 / GRAPH</text>
+    <text x="14" y="40" class="step-header">ENTITY KNOWLEDGE</text>
+    <text x="14" y="54" class="step-detail">Context &amp; Topical Authority</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(510, 22)">
+    <rect width="195" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="step-code">03 / SCHEMA</text>
+    <text x="14" y="40" class="step-header">JSON-LD ARCHITECTURE</text>
+    <text x="14" y="54" class="step-detail">Nested Structured Data</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(735, 22)">
+    <rect width="195" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="step-code">04 / OPTIMIZATION</text>
+    <text x="14" y="40" class="step-header">AEO &amp; GEO INDEXING</text>
+    <text x="14" y="54" class="step-detail">Answer &amp; Generative Engines</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g transform="translate(960, 22)">
+    <rect width="180" height="66" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="14" y="22" class="step-code">05 / OUTCOME</text>
+    <text x="14" y="40" class="step-header">AI CITATIONS &amp; SERP</text>
+    <text x="14" y="54" class="step-detail">Google, ChatGPT, Perplexity</text>
+  </g>
+</svg>
