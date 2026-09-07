@@ -1,0 +1,21 @@
+<svg width="280" height="42" viewBox="0 0 280 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ctaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EC7DE"/>
+      <stop offset="50%" stop-color="#7F4BFA"/>
+      <stop offset="100%" stop-color="#FF5A87"/>
+    </linearGradient>
+    <style>
+      .cta-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 12.5px;
+        letter-spacing: 1.5px;
+        fill: #FFFFFF;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="278" height="40" rx="8" fill="url(#ctaGrad)"/>
+  <text x="140" y="26" text-anchor="middle" class="cta-text">SCHEDULE DISCOVERY CALL →</text>
+</svg>
